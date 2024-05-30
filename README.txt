@@ -1,0 +1,4 @@
+The Chat Room application is a multi-user chat platform built with Python, featuring a server script (Server.py) that handles multiple client connections, message broadcasting, and user notifications, and client scripts (Client.py and client3.py) that provide a Tkinter-based GUI for real-time messaging. 
+To run the application, start the server script to listen for connections on 127.0.0.1:8080, then launch the client scripts to connect to the server, enter a username, and interact with other users.
+ The server broadcasts messages to all connected clients and notifies them of users joining or leaving, while the client interface allows for sending and receiving messages, with options for selecting time slots and booking seats in a simulated cinema environment.
+ Ensure Python 3.x is installed, and customize the server address and port if needed. The project is licensed under the MIT License, allowing for modification and distribution.
